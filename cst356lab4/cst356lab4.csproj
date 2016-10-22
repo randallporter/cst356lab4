@@ -75,11 +75,17 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="page\Help.html" />
+    <Content Include="page\index.html" />
+    <Content Include="page\Registration.html" />
+    <Content Include="scripts\ABCscript.js" />
+    <Content Include="styles\ABCstyle.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

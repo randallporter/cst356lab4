@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration</title>
+	<meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="../styles/ABCstyle.css">
+    <script src="../scripts/ABCscript.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav id="top">
+            <div class="nav-content">
+                <a class="page-title" href="index.html">ABC Portal</a>
+                <a href="Registration.html">Register</a>
+                <a href="Help.html">Help</a>
+            </div>
+        </nav>
+    </header>
+    <h2>Registration</h2>
+    <form method="POST" action="javascript:submit()" id="mainForm">
+        <div class="form-control">
+            <label for="txtFirstName">First Name: </label>
+            <input id="txtFirstName" type="text" name="FirstName" value="" maxlength="10">
+        </div>
+        <div class="form-control">
+            <label for="txtLastName">Last Name: </label>
+            <input id="txtLastName" type="text" name="LastName" value="" maxlength="15">
+        </div>
+        <div class="form-control">
+            <label for="txtAge">Age: </label>
+            <input id="txtAge" type="text" name="Age" value="" max="120" min="16">
+        </div>
+        <div class="form-control">
+            <input type="radio" name="year" value="13"> Freshman
+            <input type="radio" name="year" value="14"> Sophomore
+            <input type="radio" name="year" value="15"> Junior
+            <input type="radio" name="year" value="16"> Senior
+        </div>
+        <div class="form-control">
+            <button type="submit" > Submit</button>
+        </div>
+
+        <div id="divResults" class="form-control"></div>
+</form>
+</body>
+</html>
